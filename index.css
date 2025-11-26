@@ -187,7 +187,32 @@ body {
   }
   
   /* ART GALLERY */
+  div.art_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 
+  div.art_gallery-item {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+  }
+
+  div.art_gallery-item:hover {
+    border:1px solid #777;
+  }
+
+  div.art_gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.art_gallery-item div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
   /* CONTACTS SECTION */
   .footer {
       background: black;
